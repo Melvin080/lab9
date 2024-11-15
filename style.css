@@ -1,6 +1,6 @@
 header{
     background-color: beige;
-    padding: 1em;
+    padding: 10px;
     text-align: center;
     color: black;
 }
@@ -10,9 +10,32 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
-    margin: 0.1em;
+    margin: 0.5px;
     font-weight: bold;
 }
 nav a:hover{
     color: gray;
+}
+.contenedor{
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 10px;
+    box-shadow: 0 0 10px blue;
+}
+.contenedor h2{
+    color: cadetblue;
+}
+.contenedor p{
+    color: brown;
+    font-size: 10px;
+    line-height: 1.6;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
